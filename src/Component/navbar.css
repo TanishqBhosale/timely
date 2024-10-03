@@ -1,0 +1,21 @@
+/* Add this in your navbar.css */
+nav {
+    /* Change opacity of the navbar */
+    opacity: 0.9; 
+}
+
+.shadow-3d {
+    /* Example 3D shadow, adjust values as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-3d {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 
+                0 20px 25px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.shadow-3d:hover {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3), 
+                0 25px 30px rgba(0, 0, 0, 0.15);
+}
